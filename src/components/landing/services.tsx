@@ -14,7 +14,7 @@ const services = [
   },
   {
     icon: <TrendingUp className="h-10 w-10 text-primary" />,
-    title: 'Holistic Credit Management',
+    title: 'Credit Transformation',
     description: 'Plan and Conduct your credit repair with confidence. We offer comprehensive support to restore your past, track your present, and secure your future. Benefit from 24/7 monitoring and the guidance of our professional team, with access to a pipeline of additional financial professionals once your credit is restored.',
   },
   {
