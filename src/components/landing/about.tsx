@@ -9,7 +9,7 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <h2 className="text-3xl md:text-4xl font-bold font-headline mb-4 text-primary">
-              About CreditRise
+              About Us
             </h2>
             <p className="text-muted-foreground mb-4">
               At CreditRise, our mission is to empower individuals to achieve their financial goals by providing expert credit repair services. We believe that a healthy credit score is the foundation for a brighter financial future, opening doors to better opportunities and greater peace of mind.

@@ -3,12 +3,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 
-export function Hero() {
+export function Hero({ heroImage }: { heroImage: string }) {
   return (
     <section id="home" className="relative w-full py-24 md:py-32 lg:py-40 bg-card overflow-hidden">
        <div className="absolute inset-0 z-0">
         <Image 
-          src="https://placehold.co/1920x1080.png" 
+          src={heroImage}
           alt="Abstract background"
           layout="fill"
           objectFit="cover"
@@ -19,10 +19,10 @@ export function Hero() {
       </div>
       <div className="container mx-auto px-4 text-center relative z-10">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-headline tracking-tight text-primary mb-4">
-          Repair Your Credit, Rise to Your Future
+            Your Path to Prosperity
         </h1>
         <p className="max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground mb-8">
-          Unlock your financial potential with expert credit repair services. We help you correct errors, improve your score, and build a stronger financial foundation.
+            Empowering individuals and entrepreneurs to enhance their financial standing and achieve a new level of success. Your journey to a brighter tomorrow starts here
         </p>
         <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg">
           <Link href="#contact">Request a Free Consultation</Link>

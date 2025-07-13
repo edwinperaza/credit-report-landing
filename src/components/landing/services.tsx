@@ -3,24 +3,9 @@ import { ClipboardList, BookOpen, TrendingUp, ShieldCheck, Telescope, Lightbulb 
 
 const services = [
   {
-    icon: <ClipboardList className="h-10 w-10 text-primary" />,
-    title: 'Credit Report Analysis',
-    description: 'We dive deep into your credit reports from all three major bureaus to identify errors, inaccuracies, and opportunities for improvement.',
-  },
-  {
-    icon: <BookOpen className="h-10 w-10 text-primary" />,
-    title: 'Consultation & Education',
-    description: 'Get financial advice built just for you. Our consultations offer personalized recommendations based on your goals, risk tolerance, and current finances. We\'ll partner with you to understand your unique situation, delivering customized strategies to help you achieve your financial aspirations effectively and with confidence.',
-  },
-  {
-    icon: <TrendingUp className="h-10 w-10 text-primary" />,
-    title: 'Credit Transformation',
-    description: 'Plan and Conduct your credit repair with confidence. We offer comprehensive support to restore your past, track your present, and secure your future. Benefit from 24/7 monitoring and the guidance of our professional team, with access to a pipeline of additional financial professionals once your credit is restored.',
-  },
-  {
     icon: <ShieldCheck className="h-10 w-10 text-primary" />,
     title: 'Rebuild Your History',
-    description: 'We work diligently to challenge and remove negative items from your credit history, laying a clean foundation for your financial comeback.',
+    description: 'We challenge inaccurate negative items on your credit report, working directly with bureaus and creditors. We\'ll do our best to ensure your credit history is accurate and up-to-date, laying a strong foundation for your financial comeback.',
   },
   {
     icon: <Telescope className="h-10 w-10 text-primary" />,
@@ -31,6 +16,21 @@ const services = [
     icon: <Lightbulb className="h-10 w-10 text-primary" />,
     title: 'Plan Your Tomorrow',
     description: 'Beyond repair, we equip you with the financial literacy and tools needed to make smart decisions and secure a prosperous future.',
+  },
+  {
+    icon: <ClipboardList className="h-10 w-10 text-primary" />,
+    title: 'Credit Report Analysis',
+    description: 'Secure your future with 24/7 credit monitoring and real-time alerts. Track your score and get personalized insights to improve your credit health. A strong credit profile, built through diligent monitoring, secures better loan terms, job opportunities, and access to essential financial products.',
+  },
+  {
+    icon: <BookOpen className="h-10 w-10 text-primary" />,
+    title: 'Consultation & Education',
+    description: 'Get financial advice built just for you. Our consultations offer personalized recommendations based on your goals, risk tolerance, and current finances. We\'ll partner with you to understand your unique situation, delivering customized strategies to help you achieve your financial aspirations effectively and with confidence.',
+  },
+  {
+    icon: <TrendingUp className="h-10 w-10 text-primary" />,
+    title: 'Credit Transformation',
+    description: 'Plan and Conduct your credit repair with confidence. We offer comprehensive support to rebuild your history, track your progress, and plan your tomorrow. Benefit from 24/7 monitoring and the guidance of our professional team, with access to a pipeline of additional financial professionals once your credit is restored.',
   },
 ];
 
