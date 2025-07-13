@@ -10,7 +10,7 @@ const services = [
   {
     icon: <Telescope className="h-10 w-10 text-primary" />,
     title: 'Track Your Progress',
-    description: 'Stay informed with our credit monitoring service. We keep an eye on your reports and alert you to changes, so you\'re always in control.',
+    description: "Stay in control with our 24/7 credit monitoring system. We keep a vigilant eye on your reports, tracking progress and instantly alerting you to any changes. We're here to provide professional guidance, ensuring you're always informed and empowered throughout your journey.",
   },
   {
     icon: <Lightbulb className="h-10 w-10 text-primary" />,
