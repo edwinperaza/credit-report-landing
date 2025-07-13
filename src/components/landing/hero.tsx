@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -10,13 +9,13 @@ export function Hero({ heroImage }: { heroImage: string }) {
         <Image 
           src={heroImage}
           alt="Diverse professionals in a modern office looking at financial charts."
-          layout="fill"
+          fill
           objectFit="cover"
           className="opacity-10"
           data-ai-hint="financial growth teamwork"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background/50 to-background"></div>
       </div>
       <div className="container mx-auto px-4 text-center relative z-10">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-headline tracking-tight text-primary mb-4">
