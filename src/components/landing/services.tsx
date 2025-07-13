@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { ClipboardList, Gavel, TrendingUp, ShieldCheck, Telescope, Lightbulb } from 'lucide-react';
+import { ClipboardList, BookOpen, TrendingUp, ShieldCheck, Telescope, Lightbulb } from 'lucide-react';
 
 const services = [
   {
@@ -8,9 +8,9 @@ const services = [
     description: 'We dive deep into your credit reports from all three major bureaus to identify errors, inaccuracies, and opportunities for improvement.',
   },
   {
-    icon: <Gavel className="h-10 w-10 text-primary" />,
-    title: 'Dispute Resolution',
-    description: 'Our experts handle the entire dispute process with credit bureaus and creditors on your behalf, saving you time and stress.',
+    icon: <BookOpen className="h-10 w-10 text-primary" />,
+    title: 'Consultation & Education',
+    description: 'Get financial advice built just for you. Our consultations offer personalized recommendations based on your goals, risk tolerance, and current finances. We\'ll partner with you to understand your unique situation, delivering customized strategies to help you achieve your financial aspirations effectively and with confidence.',
   },
   {
     icon: <TrendingUp className="h-10 w-10 text-primary" />,
