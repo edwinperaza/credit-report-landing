@@ -1,6 +1,5 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { ClipboardList, Gavel, TrendingUp } from 'lucide-react';
+import { ClipboardList, Gavel, TrendingUp, ShieldCheck, Telescope, Lightbulb } from 'lucide-react';
 
 const services = [
   {
@@ -17,6 +16,21 @@ const services = [
     icon: <TrendingUp className="h-10 w-10 text-primary" />,
     title: 'Credit Score Improvement',
     description: 'We provide personalized strategies and ongoing guidance to help you build positive credit history and maintain a healthy score for the long term.',
+  },
+  {
+    icon: <ShieldCheck className="h-10 w-10 text-primary" />,
+    title: 'Rebuild Your History',
+    description: 'We work diligently to challenge and remove negative items from your credit history, laying a clean foundation for your financial comeback.',
+  },
+  {
+    icon: <Telescope className="h-10 w-10 text-primary" />,
+    title: 'Track Your Progress',
+    description: 'Stay informed with our credit monitoring service. We keep an eye on your reports and alert you to changes, so you\'re always in control.',
+  },
+  {
+    icon: <Lightbulb className="h-10 w-10 text-primary" />,
+    title: 'Plan Your Tomorrow',
+    description: 'Beyond repair, we equip you with the financial literacy and tools needed to make smart decisions and secure a prosperous future.',
   },
 ];
 
