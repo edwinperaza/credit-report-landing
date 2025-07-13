@@ -14,8 +14,8 @@ const services = [
   },
   {
     icon: <TrendingUp className="h-10 w-10 text-primary" />,
-    title: 'Credit Score Improvement',
-    description: 'We provide personalized strategies and ongoing guidance to help you build positive credit history and maintain a healthy score for the long term.',
+    title: 'Holistic Credit Management',
+    description: 'Plan and Conduct your credit repair with confidence. We offer comprehensive support to restore your past, track your present, and secure your future. Benefit from 24/7 monitoring and the guidance of our professional team, with access to a pipeline of additional financial professionals once your credit is restored.',
   },
   {
     icon: <ShieldCheck className="h-10 w-10 text-primary" />,
