@@ -9,11 +9,12 @@ export function Hero({ heroImage }: { heroImage: string }) {
        <div className="absolute inset-0 z-0">
         <Image 
           src={heroImage}
-          alt="Abstract background"
+          alt="Diverse professionals in a modern office looking at financial charts."
           layout="fill"
           objectFit="cover"
           className="opacity-10"
-          data-ai-hint="finance growth"
+          data-ai-hint="financial growth teamwork"
+          priority
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent"></div>
       </div>
