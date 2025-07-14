@@ -40,7 +40,7 @@ export function Services() {
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary">
-            How We Help You Rise
+            Our Path to Your Success
           </h2>
           <p className="max-w-2xl mx-auto text-muted-foreground mt-4">
             Our comprehensive services are designed to address your credit issues from every angle.
