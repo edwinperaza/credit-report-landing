@@ -15,7 +15,7 @@ export function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground py-6">
       <div className="container mx-auto px-4 flex flex-col-reverse sm:flex-row justify-between items-center gap-4">
-        <p className="text-sm">&copy; 2025 CreditRise. All rights reserved.</p>
+        <p className="text-sm">&copy; 2025. All rights reserved.</p>
         <div className="flex items-center gap-4">
           {socialLinks.map((social) => (
              <Link key={social.label} href={social.href} passHref>
