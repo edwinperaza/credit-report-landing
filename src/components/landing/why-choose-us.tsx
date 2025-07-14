@@ -1,6 +1,6 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Award, UserCheck, BadgeCheck, HeartHandshake } from 'lucide-react';
+import { Award, UserCheck, Rocket, HeartHandshake } from 'lucide-react';
 
 const differentiators = [
   {
@@ -14,7 +14,7 @@ const differentiators = [
     description: 'We believe in a tailored approach. Our guidance is always objective and designed specifically for your unique financial situation and goals, ensuring honest and transparent support every step of the way.',
   },
   {
-    icon: <BadgeCheck className="h-10 w-10 text-primary" />,
+    icon: <Rocket className="h-10 w-10 text-primary" />,
     title: 'Committed to Your Prosperity',
     description: 'Your financial success is our mission. We\'re dedicated to helping you not just repair your credit, but to achieve lasting financial improvement and enjoy the future you deserve. We\'re here to empower you with the tools and knowledge for true financial well-being.',
   },
