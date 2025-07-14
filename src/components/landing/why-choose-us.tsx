@@ -37,7 +37,7 @@ export function WhyChooseUs() {
             Discover why so many clients trust us to guide them on their path to better credit.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {differentiators.map((item, index) => (
             <Card key={index} className="text-center p-6 shadow-md hover:shadow-xl transition-shadow duration-300 border-transparent hover:border-primary/20 bg-card">
               <CardHeader className="flex flex-col items-center">
