@@ -15,7 +15,7 @@ const services = [
   {
     icon: <Lightbulb className="h-10 w-10 text-primary" />,
     title: 'Plan Your Tomorrow',
-    description: 'Beyond repair, we equip you with the financial literacy and tools needed to make smart decisions and secure a prosperous future.',
+    description: 'Beyond just repairing your credit, we arm you with the financial wisdom and powerful tools to make smart decisions and secure a prosperous future. We empower you with ongoing support and resources, ensuring you have everything you need to maintain your newfound financial health.',
   },
   {
     icon: <ClipboardList className="h-10 w-10 text-primary" />,
