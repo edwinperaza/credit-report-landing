@@ -12,10 +12,10 @@ export function About() {
               About Us
             </h2>
             <p className="text-muted-foreground mb-4">
-              At CreditRise, our mission is to empower individuals to achieve their financial goals by providing expert credit repair services. We believe that a healthy credit score is the foundation for a brighter financial future, opening doors to better opportunities and greater peace of mind.
+              Our goal is simple: to be your trusted, expert partner on the path to financial freedom. We're committed to guiding individuals and businesses ethically and effectively, laying out a clear, proven way to significantly improve your financial health and credit score, helping you achieve prosperity and grow financially.
             </p>
             <p className="text-muted-foreground">
-              Our team is dedicated to offering personalized, transparent, and effective solutions. We combine our deep industry knowledge with a genuine commitment to our clients' success, guiding them every step of the way on their journey to financial wellness.
+              We're the true credit repair company that works, dedicated to helping you see results quickly. Our clients often experience significant progress in less than 60 days through our easy and secure process. Just like many others we've helped, you can achieve the financial future you deserve.
             </p>
           </div>
           <div className="order-1 md:order-2">
