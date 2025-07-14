@@ -11,7 +11,7 @@ export function Hero({ heroImage }: { heroImage: string }) {
           alt="A modern cityscape with a bright sun flare."
           fill
           objectFit="cover"
-          className="opacity-20"
+          className="opacity-70"
           data-ai-hint="cityscape sunset"
           priority
         />

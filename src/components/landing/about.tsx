@@ -21,12 +21,12 @@ export function About() {
           <div className="order-1 md:order-2">
             <Card className="overflow-hidden rounded-xl shadow-lg">
               <Image
-                src="https://placehold.co/600x400.png"
-                alt="CreditRise Team"
+                src="https://firebasestorage.googleapis.com/v0/b/creditrise-landing-page.firebasestorage.app/o/smiling-business-team-using-laptop.jpg?alt=media&token=b0fadb63-bab8-472f-bd99-ae152ffe8910"
+                alt="Smiling business team working on a laptop"
                 width={600}
                 height={400}
                 className="w-full h-auto object-cover"
-                data-ai-hint="business team"
+                data-ai-hint="business team laptop"
               />
             </Card>
           </div>
