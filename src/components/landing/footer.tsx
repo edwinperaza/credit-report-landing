@@ -1,12 +1,12 @@
 'use client'
 
 import Link from 'next/link';
-import { Facebook, Instagram, Twitter, Youtube, Linkedin } from 'lucide-react';
+import { Facebook, Instagram, X, Youtube, Linkedin } from 'lucide-react';
 
 const socialLinks = [
   { href: '#', icon: <Facebook className="h-6 w-6" />, label: 'Facebook' },
   { href: '#', icon: <Instagram className="h-6 w-6" />, label: 'Instagram' },
-  { href: '#', icon: <Twitter className="h-6 w-6" />, label: 'X' },
+  { href: '#', icon: <X className="h-6 w-6" />, label: 'X' },
   { href: '#', icon: <Youtube className="h-6 w-6" />, label: 'YouTube' },
   { href: '#', icon: <Linkedin className="h-6 w-6" />, label: 'LinkedIn' },
 ];
