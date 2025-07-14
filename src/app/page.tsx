@@ -12,13 +12,11 @@ export default function Home() {
     <div className="flex flex-col min-h-screen bg-background text-foreground">
       {/* <Header /> */}
       <main className="flex-1">
-        <div className="max-w-7xl mx-auto">
-          <Hero heroImage="https://firebasestorage.googleapis.com/v0/b/creditrise-landing-page.firebasestorage.app/o/modern-business-buildings-financial-district.jpg?alt=media&token=61dbeea8-d44f-49af-86ec-4f3244f21f57" />
-          <About />
-          <Services />
-          <WhyChooseUs />
-          <Contact />
-        </div>
+        <Hero heroImage="https://firebasestorage.googleapis.com/v0/b/creditrise-landing-page.firebasestorage.app/o/modern-business-buildings-financial-district.jpg?alt=media&token=61dbeea8-d44f-49af-86ec-4f3244f21f57" />
+        <About />
+        <Services />
+        <WhyChooseUs />
+        <Contact />
       </main>
       <Footer />
     </div>

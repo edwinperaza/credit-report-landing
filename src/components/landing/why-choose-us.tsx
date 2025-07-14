@@ -28,7 +28,7 @@ const differentiators = [
 export function WhyChooseUs() {
   return (
     <section id="why-us" className="py-16 md:py-24 bg-card">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 max-w-7xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary">
             Why you should choose us?
