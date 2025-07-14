@@ -10,9 +10,9 @@ import { Footer } from '@/components/landing/footer';
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-background text-foreground">
-      <Header />
+      {/* <Header /> */}
       <main className="flex-1">
-        <Hero heroImage="https://placehold.co/1920x1080.png" />
+        <Hero heroImage="https://storage.googleapis.com/project-os-prod/images/4294b0d0-e1b1-4770-9b43-2384c7183e8b.jpg" />
         <About />
         <Services />
         <WhyChooseUs />

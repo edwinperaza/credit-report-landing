@@ -8,14 +8,14 @@ export function Hero({ heroImage }: { heroImage: string }) {
        <div className="absolute inset-0 z-0">
         <Image 
           src={heroImage}
-          alt="Diverse professionals in a modern office looking at financial charts."
+          alt="A modern cityscape with a bright sun flare."
           fill
           objectFit="cover"
-          className="opacity-10"
-          data-ai-hint="financial growth teamwork"
+          className="opacity-20"
+          data-ai-hint="cityscape sunset"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/40 via-background/70 to-background"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/60 via-background/80 to-background"></div>
       </div>
       <div className="container mx-auto px-4 text-center relative z-10">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-headline tracking-tight text-primary mb-4">
