@@ -27,7 +27,7 @@ const differentiators = [
 
 export function WhyChooseUs() {
   return (
-    <section id="why-us" className="py-16 md:py-24 bg-card">
+    <section id="why-us" className="py-16 md:py-24 bg-secondary">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary">
@@ -39,7 +39,7 @@ export function WhyChooseUs() {
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {differentiators.map((item, index) => (
-            <Card key={index} className="text-center p-6 shadow-md hover:shadow-xl transition-shadow duration-300 border-transparent hover:border-primary/20">
+            <Card key={index} className="text-center p-6 shadow-md hover:shadow-xl transition-shadow duration-300 border-transparent hover:border-primary/20 bg-card">
               <CardHeader className="flex flex-col items-center">
                  <div className="mb-4 p-4 bg-primary/10 rounded-full">
                   {item.icon}
