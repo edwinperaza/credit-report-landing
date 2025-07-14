@@ -4,6 +4,7 @@
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import * as z from 'zod';
+import { sendContactEmail } from '@/ai/flows/send-contact-email-flow';
 
 import { Button } from '@/components/ui/button';
 import {
@@ -44,13 +45,21 @@ export function Contact() {
     },
   });
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
-    toast({
-      title: "Message Sent!",
-      description: "Thanks for reaching out. We'll get back to you shortly.",
-    });
-    form.reset();
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    const result = await sendContactEmail(values);
+    if (result.success) {
+      toast({
+        title: "Message Sent!",
+        description: "Thanks for reaching out. We'll get back to you shortly.",
+      });
+      form.reset();
+    } else {
+      toast({
+        title: "Something went wrong",
+        description: "Your message could not be sent. Please try again later.",
+        variant: "destructive",
+      });
+    }
   }
 
   return (
@@ -116,8 +125,8 @@ export function Contact() {
                     </FormItem>
                   )}
                 />
-                <Button type="submit" size="lg" className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
-                  Request Consultation
+                <Button type="submit" size="lg" className="w-full bg-accent hover:bg-accent/90 text-accent-foreground" disabled={form.formState.isSubmitting}>
+                  {form.formState.isSubmitting ? 'Sending...' : 'Request Consultation'}
                 </Button>
               </form>
             </Form>
@@ -127,3 +136,4 @@ export function Contact() {
     </section>
   );
 }
+
