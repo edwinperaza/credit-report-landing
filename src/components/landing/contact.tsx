@@ -64,7 +64,7 @@ export function Contact() {
 
   return (
     <section id="contact" className="py-16 md:py-24 bg-background">
-      <div className="container mx-auto px-4 flex justify-center">
+      <div className="container mx-auto px-4 max-w-7xl flex justify-center">
         <Card className="w-full max-w-2xl shadow-xl">
           <CardHeader className="text-center">
             <CardTitle className="text-3xl md:text-4xl font-bold font-headline text-primary">Request a Free Consultation</CardTitle>
@@ -125,7 +125,7 @@ export function Contact() {
                     </FormItem>
                   )}
                 />
-                <Button type="submit" size="lg" className="w-full bg-accent hover:bg-accent/90 text-accent-foreground" disabled={form.formState.isSubmitting}>
+                <Button type="submit" size="lg" className="w-full bg-accent hover:bg-primary text-accent-foreground" disabled={form.formState.isSubmitting}>
                   {form.formState.isSubmitting ? 'Sending...' : 'Request Consultation'}
                 </Button>
               </form>
@@ -136,4 +136,3 @@ export function Contact() {
     </section>
   );
 }
-

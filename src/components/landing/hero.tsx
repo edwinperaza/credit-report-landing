@@ -11,7 +11,7 @@ export function Hero({ heroImage }: { heroImage: string }) {
           alt="A modern cityscape with a bright sun flare."
           fill
           objectFit="cover"
-          className="opacity-70"
+          className="opacity-20"
           data-ai-hint="cityscape sunset"
           priority
         />
@@ -24,7 +24,7 @@ export function Hero({ heroImage }: { heroImage: string }) {
         <p className="max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground mb-8">
             Empowering individuals and entrepreneurs to enhance their financial standing and achieve a new level of success. Your journey to a brighter tomorrow starts here
         </p>
-        <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg">
+        <Button asChild size="lg" className="bg-accent hover:bg-primary text-accent-foreground shadow-lg">
           <Link href="#contact">Request a Free Consultation</Link>
         </Button>
       </div>
