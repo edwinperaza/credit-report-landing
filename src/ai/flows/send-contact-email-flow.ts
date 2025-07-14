@@ -11,10 +11,6 @@ import { Resend } from 'resend';
 import { render } from '@react-email/render';
 import ContactEmail from '@/components/emails/contact-email';
 
-// Note: This API key is for development purposes only.
-// You should use a real API key in production.
-const resend = new Resend('re_123456789');
-
 const ContactFormInputSchema = z.object({
   name: z.string().min(2, {
     message: 'Name must be at least 2 characters.',
@@ -51,11 +47,18 @@ const sendContactEmailFlow = ai.defineFlow(
     }),
   },
   async (input) => {
-    console.log('Received contact form submission:');
-    console.log('Name:', input.name);
-    console.log('Email:', input.email);
-    console.log('Phone:', input.phone);
-    console.log('Message:', input.message);
+    // If there's no API key, log to console to avoid crashing.
+    if (!process.env.RESEND_API_KEY) {
+      console.log('No Resend API key found. Skipping email sending.');
+      console.log('Received contact form submission:');
+      console.log('Name:', input.name);
+      console.log('Email:', input.email);
+      console.log('Phone:', input.phone);
+      console.log('Message:', input.message);
+      return { message: 'Contact form submission received and logged successfully.' };
+    }
+
+    const resend = new Resend(process.env.RESEND_API_KEY);
 
     try {
       const { data, error } = await resend.emails.send({
