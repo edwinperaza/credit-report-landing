@@ -9,7 +9,7 @@
   "hero": {
     "title": "Tu Camino hacia la Prosperidad",
     "subtitle": "Empoderamos a individuos y emprendedores para mejorar su situación financiera y alcanzar un nuevo nivel de éxito. Tu viaje hacia un mañana más brillante comienza aquí.",
-    "cta": "Solicita una Consulta GRATUITA"
+    "cta": "Solicita una Consulta GRATIS"
   },
   "about": {
     "title": "Sobre Nosotros",
@@ -69,7 +69,7 @@
     ]
   },
   "contact": {
-    "title": "Solicita una Consulta Gratuita",
+    "title": "Solicita una Consulta GRATIS",
     "subtitle": "Completa el siguiente formulario y uno de nuestros expertos en crédito se pondrá en contacto.",
     "form": {
       "nameLabel": "Nombre Completo",
@@ -80,7 +80,7 @@
       "phonePlaceholder": "(123) 456-7890",
       "messageLabel": "Tu Mensaje",
       "messagePlaceholder": "Cuéntanos un poco sobre tu situación crediticia...",
-      "submitButton": "Solicitar Consulta GRATUITA",
+      "submitButton": "Solicita una Consulta GRATIS",
       "submittingButton": "Enviando..."
     },
     "toast": {
