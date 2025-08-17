@@ -1,8 +1,18 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 
-export function Hero({ heroImage }: { heroImage: string }) {
+interface HeroProps {
+  heroImage: string;
+  dictionary: {
+    title: string;
+    subtitle: string;
+    cta: string;
+  };
+}
+
+export function Hero({ heroImage, dictionary }: HeroProps) {
   return (
     <section id="home" className="relative w-full py-20 md:py-24 bg-card overflow-hidden">
        <div className="absolute inset-0 z-0">
@@ -19,13 +29,13 @@ export function Hero({ heroImage }: { heroImage: string }) {
       </div>
       <div className="container mx-auto px-4 text-center relative z-10">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-headline tracking-tight text-primary mb-4">
-            Your Path to Prosperity
+            {dictionary.title}
         </h1>
         <p className="max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground mb-8">
-            Empowering individuals and entrepreneurs to enhance their financial standing and achieve a new level of success. Your journey to a brighter tomorrow starts here
+            {dictionary.subtitle}
         </p>
         <Button asChild size="lg" className="bg-accent hover:bg-primary text-accent-foreground shadow-lg">
-          <Link href="#contact">Request a Free Consultation</Link>
+          <Link href="#contact">{dictionary.cta}</Link>
         </Button>
       </div>
       <div className="absolute bottom-0 left-0 w-full h-[100px] z-10">

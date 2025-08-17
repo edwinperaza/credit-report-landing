@@ -33,7 +33,32 @@ const formSchema = z.object({
   }),
 });
 
-export function Contact() {
+interface ContactProps {
+  dictionary: {
+    title: string;
+    subtitle: string;
+    form: {
+      nameLabel: string;
+      namePlaceholder: string;
+      emailLabel: string;
+      emailPlaceholder: string;
+      phoneLabel: string;
+      phonePlaceholder: string;
+      messageLabel: string;
+      messagePlaceholder: string;
+      submitButton: string;
+      submittingButton: string;
+    };
+    toast: {
+      successTitle: string;
+      successDescription: string;
+      errorTitle: string;
+      errorDescription: string;
+    };
+  };
+}
+
+export function Contact({ dictionary }: ContactProps) {
   const { toast } = useToast();
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -49,14 +74,14 @@ export function Contact() {
     const result = await sendContactEmail(values);
     if (result.success) {
       toast({
-        title: "Message Sent!",
-        description: "Thanks for reaching out. We'll get back to you shortly.",
+        title: dictionary.toast.successTitle,
+        description: dictionary.toast.successDescription,
       });
       form.reset();
     } else {
       toast({
-        title: "Something went wrong",
-        description: "Your message could not be sent. Please try again later.",
+        title: dictionary.toast.errorTitle,
+        description: dictionary.toast.errorDescription,
         variant: "destructive",
       });
     }
@@ -67,8 +92,8 @@ export function Contact() {
       <div className="container mx-auto px-4 max-w-7xl flex justify-center">
         <Card className="w-full max-w-2xl shadow-xl">
           <CardHeader className="text-center">
-            <CardTitle className="text-3xl md:text-4xl font-bold font-headline text-primary">Request a Free Consultation</CardTitle>
-            <CardDescription>Fill out the form below and one of our credit experts will be in touch.</CardDescription>
+            <CardTitle className="text-3xl md:text-4xl font-bold font-headline text-primary">{dictionary.title}</CardTitle>
+            <CardDescription>{dictionary.subtitle}</CardDescription>
           </CardHeader>
           <CardContent>
             <Form {...form}>
@@ -78,9 +103,9 @@ export function Contact() {
                   name="name"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Full Name</FormLabel>
+                      <FormLabel>{dictionary.form.nameLabel}</FormLabel>
                       <FormControl>
-                        <Input placeholder="John Doe" {...field} />
+                        <Input placeholder={dictionary.form.namePlaceholder} {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -91,9 +116,9 @@ export function Contact() {
                   name="email"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Email Address</FormLabel>
+                      <FormLabel>{dictionary.form.emailLabel}</FormLabel>
                       <FormControl>
-                        <Input placeholder="you@example.com" {...field} />
+                        <Input placeholder={dictionary.form.emailPlaceholder} {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -104,9 +129,9 @@ export function Contact() {
                   name="phone"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Phone Number (Optional)</FormLabel>
+                      <FormLabel>{dictionary.form.phoneLabel}</FormLabel>
                       <FormControl>
-                        <Input placeholder="(123) 456-7890" {...field} />
+                        <Input placeholder={dictionary.form.phonePlaceholder} {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -117,16 +142,16 @@ export function Contact() {
                   name="message"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Your Message</FormLabel>
+                      <FormLabel>{dictionary.form.messageLabel}</FormLabel>
                       <FormControl>
-                        <Textarea placeholder="Tell us a little about your credit situation..." {...field} />
+                        <Textarea placeholder={dictionary.form.messagePlaceholder} {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
                   )}
                 />
                 <Button type="submit" size="lg" className="w-full bg-accent hover:bg-primary text-accent-foreground" disabled={form.formState.isSubmitting}>
-                  {form.formState.isSubmitting ? 'Sending...' : 'Request Consultation'}
+                  {form.formState.isSubmitting ? dictionary.form.submittingButton : dictionary.form.submitButton}
                 </Button>
               </form>
             </Form>

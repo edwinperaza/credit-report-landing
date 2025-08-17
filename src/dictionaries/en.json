@@ -1,0 +1,96 @@
+
+{
+  "header": {
+    "about": "About",
+    "services": "Services",
+    "whyUs": "Why Us",
+    "contact": "Request a Consultation"
+  },
+  "hero": {
+    "title": "Your Path to Prosperity",
+    "subtitle": "Empowering individuals and entrepreneurs to enhance their financial standing and achieve a new level of success. Your journey to a brighter tomorrow starts here",
+    "cta": "Request a Free Consultation"
+  },
+  "about": {
+    "title": "About Us",
+    "p1": "Our goal is simple: to be your trusted, expert partner on the path to financial freedom. We're committed to guiding individuals and businesses ethically and effectively, laying out a clear, proven way to significantly improve your financial health and credit score, helping you achieve prosperity and grow financially.",
+    "p2": "We're the true credit repair company that works, dedicated to helping you see results quickly. Our clients often experience significant progress in less than 60 days through our easy and secure process. Just like many others we've helped, you can achieve the financial future you deserve."
+  },
+  "services": {
+    "title": "Our Path to Your Success",
+    "subtitle": "Our comprehensive services are designed to address your credit issues from every angle.",
+    "items": [
+      {
+        "title": "Rebuild Your History",
+        "description": "We challenge inaccurate negative items on your credit report, working directly with bureaus and creditors. We'll do our best to ensure your credit history is accurate and up-to-date, laying a strong foundation for your financial comeback."
+      },
+      {
+        "title": "Track Your Progress",
+        "description": "Stay in control with our 24/7 credit monitoring system. We keep a vigilant eye on your reports, tracking progress and instantly alerting you to any changes. We're here to provide professional guidance, ensuring you're always informed and empowered throughout your journey."
+      },
+      {
+        "title": "Plan Your Tomorrow",
+        "description": "Beyond just repairing your credit, we arm you with the financial wisdom and powerful tools to make smart decisions and secure a prosperous future. We empower you with ongoing support and resources, ensuring you have everything you need to maintain your newfound financial health."
+      },
+      {
+        "title": "Credit Report Analysis",
+        "description": "Secure your future with 24/7 credit monitoring and real-time alerts. Track your score and get personalized insights to improve your credit health. A strong credit profile, built through diligent monitoring, secures better loan terms, job opportunities, and access to essential financial products."
+      },
+      {
+        "title": "Consultation & Education",
+        "description": "Get financial advice built just for you. Our consultations offer personalized recommendations based on your goals, risk tolerance, and current finances. We'll partner with you to understand your unique situation, delivering customized strategies to help you achieve your financial aspirations effectively and with confidence."
+      },
+      {
+        "title": "Credit Transformation",
+        "description": "Plan and Conduct your credit repair with confidence. We offer comprehensive support to rebuild your history, track your progress, and plan your tomorrow. Benefit from 24/7 monitoring and the guidance of our professional team, with access to a pipeline of additional financial professionals once your credit is restored."
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why you should choose us?",
+    "subtitle": "Discover why so many clients trust us to guide them on their path to better credit.",
+    "items": [
+      {
+        "title": "Specialized Expertise",
+        "description": "Our team brings focused expertise to resolving credit challenges, especially excelling in effectively addressing late payment issues. We're dedicated to applying our in-depth knowledge to help you achieve your credit goals."
+      },
+      {
+        "title": "Your Personalized Path",
+        "description": "We believe in a tailored approach. Our guidance is always objective and designed specifically for your unique financial situation and goals, ensuring honest and transparent support every step of the way."
+      },
+      {
+        "title": "Committed to Your Prosperity",
+        "description": "Your financial success is our mission. We're dedicated to helping you not just repair your credit, but to achieve lasting financial improvement and enjoy the future you deserve. We're here to empower you with the tools and knowledge for true financial well-being."
+      },
+      {
+        "title": "Compassionate Support",
+        "description": "We understand financial stress can be tough. That's why we handle every client with compassion and genuine care, offering personalized support to ease your worries. You're never just a number to us; we're truly here to guide you."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Request a Free Consultation",
+    "subtitle": "Fill out the form below and one of our credit experts will be in touch.",
+    "form": {
+      "nameLabel": "Full Name",
+      "namePlaceholder": "John Doe",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "phoneLabel": "Phone Number (Optional)",
+      "phonePlaceholder": "(123) 456-7890",
+      "messageLabel": "Your Message",
+      "messagePlaceholder": "Tell us a little about your credit situation...",
+      "submitButton": "Request Consultation",
+      "submittingButton": "Sending..."
+    },
+    "toast": {
+      "successTitle": "Message Sent!",
+      "successDescription": "Thanks for reaching out. We'll get back to you shortly.",
+      "errorTitle": "Something went wrong",
+      "errorDescription": "Your message could not be sent. Please try again later."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025. All rights reserved."
+  }
+}

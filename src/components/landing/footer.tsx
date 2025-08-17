@@ -1,7 +1,14 @@
+
 'use client'
 
 import Link from 'next/link';
 import { Facebook, Instagram, Twitter, Youtube, Linkedin } from 'lucide-react';
+
+interface FooterProps {
+  dictionary: {
+    copyright: string;
+  };
+}
 
 const socialLinks = [
   { href: '#', icon: <Facebook className="h-6 w-6" />, label: 'Facebook' },
@@ -11,11 +18,11 @@ const socialLinks = [
   { href: '#', icon: <Linkedin className="h-6 w-6" />, label: 'LinkedIn' },
 ];
 
-export function Footer() {
+export function Footer({ dictionary }: FooterProps) {
   return (
     <footer className="bg-primary text-primary-foreground py-6">
       <div className="container mx-auto px-4 flex flex-col-reverse sm:flex-row justify-between items-center gap-4">
-        <p className="text-sm">&copy; 2025. All rights reserved.</p>
+        <p className="text-sm">{dictionary.copyright}</p>
         <div className="flex items-center gap-4">
           {socialLinks.map((social) => (
              <Link key={social.label} href={social.href} passHref>

@@ -1,0 +1,96 @@
+
+{
+  "header": {
+    "about": "Nosotros",
+    "services": "Servicios",
+    "whyUs": "Por Qué Elegirnos",
+    "contact": "Solicita una Consulta"
+  },
+  "hero": {
+    "title": "Tu Camino hacia la Prosperidad",
+    "subtitle": "Empoderamos a individuos y emprendedores para mejorar su situación financiera y alcanzar un nuevo nivel de éxito. Tu viaje hacia un mañana más brillante comienza aquí.",
+    "cta": "Solicita una Consulta Gratuita"
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "p1": "Nuestro objetivo es simple: ser tu socio experto y de confianza en el camino hacia la libertad financiera. Estamos comprometidos a guiar a individuos y empresas de manera ética y efectiva, estableciendo un camino claro y probado para mejorar significativamente tu salud financiera y tu puntaje de crédito, ayudándote a alcanzar la prosperidad y a crecer financieramente.",
+    "p2": "Somos la verdadera compañía de reparación de crédito que funciona, dedicada a ayudarte a ver resultados rápidamente. Nuestros clientes a menudo experimentan un progreso significativo en menos de 60 días a través de nuestro proceso fácil y seguro. Al igual que muchos otros a los que hemos ayudado, puedes alcanzar el futuro financiero que mereces."
+  },
+  "services": {
+    "title": "Nuestro Camino hacia tu Éxito",
+    "subtitle": "Nuestros servicios integrales están diseñados para abordar tus problemas de crédito desde todos los ángulos.",
+    "items": [
+      {
+        "title": "Reconstruye tu Historial",
+        "description": "Impugnamos elementos negativos inexactos en tu informe de crédito, trabajando directamente con las agencias y los acreedores. Haremos todo lo posible para garantizar que tu historial de crédito sea preciso y esté actualizado, sentando una base sólida para tu regreso financiero."
+      },
+      {
+        "title": "Sigue tu Progreso",
+        "description": "Mantén el control con nuestro sistema de monitoreo de crédito 24/7. Mantenemos una vigilancia constante sobre tus informes, siguiendo el progreso y alertándote instantáneamente sobre cualquier cambio. Estamos aquí para brindarte orientación profesional, asegurando que siempre estés informado y empoderado durante todo tu viaje."
+      },
+      {
+        "title": "Planifica tu Mañana",
+        "description": "Más allá de solo reparar tu crédito, te armamos con la sabiduría financiera y las herramientas poderosas para tomar decisiones inteligentes y asegurar un futuro próspero. Te empoderamos con apoyo y recursos continuos, asegurando que tengas todo lo que necesitas para mantener tu nueva salud financiera."
+      },
+      {
+        "title": "Análisis de Informe de Crédito",
+        "description": "Asegura tu futuro con monitoreo de crédito 24/7 y alertas en tiempo real. Sigue tu puntaje y obtén información personalizada para mejorar tu salud crediticia. Un perfil de crédito sólido, construido a través de un monitoreo diligente, asegura mejores términos de préstamo, oportunidades de trabajo y acceso a productos financieros esenciales."
+      },
+      {
+        "title": "Consulta y Educación",
+        "description": "Obtén asesoramiento financiero hecho a tu medida. Nuestras consultas ofrecen recomendaciones personalizadas basadas en tus metas, tolerancia al riesgo y finanzas actuales. Nos asociaremos contigo para comprender tu situación única, entregando estrategias personalizadas para ayudarte a alcanzar tus aspiraciones financieras de manera efectiva y con confianza."
+      },
+      {
+        "title": "Transformación de Crédito",
+        "description": "Planifica y lleva a cabo tu reparación de crédito con confianza. Ofrecemos un apoyo integral para reconstruir tu historial, seguir tu progreso y planificar tu mañana. Benefíciate del monitoreo 24/7 y la guía de nuestro equipo profesional, con acceso a una red de profesionales financieros adicionales una vez que tu crédito sea restaurado."
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "¿Por qué deberías elegirnos?",
+    "subtitle": "Descubre por qué tantos clientes confían en nosotros para guiarlos en su camino hacia un mejor crédito.",
+    "items": [
+      {
+        "title": "Experiencia Especializada",
+        "description": "Nuestro equipo aporta experiencia enfocada para resolver desafíos de crédito, destacándose especialmente en abordar eficazmente los problemas de pagos atrasados. Estamos dedicados a aplicar nuestro profundo conocimiento para ayudarte a alcanzar tus metas de crédito."
+      },
+      {
+        "title": "Tu Camino Personalizado",
+        "description": "Creemos en un enfoque a medida. Nuestra orientación es siempre objetiva y está diseñada específicamente para tu situación y metas financieras únicas, asegurando un apoyo honesto y transparente en cada paso del camino."
+      },
+      {
+        "title": "Comprometidos con tu Prosperidad",
+        "description": "Tu éxito financiero es nuestra misión. Estamos dedicados a ayudarte no solo a reparar tu crédito, sino a lograr una mejora financiera duradera y a disfrutar del futuro que mereces. Estamos aquí para empoderarte con las herramientas y el conocimiento para un verdadero bienestar financiero."
+      },
+      {
+        "title": "Apoyo Compasivo",
+        "description": "Entendemos que el estrés financiero puede ser difícil. Es por eso que tratamos a cada cliente con compasión y cuidado genuino, ofreciendo un apoyo personalizado para aliviar tus preocupaciones. Nunca eres solo un número para nosotros; estamos realmente aquí para guiarte."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Solicita una Consulta Gratuita",
+    "subtitle": "Completa el siguiente formulario y uno de nuestros expertos en crédito se pondrá en contacto.",
+    "form": {
+      "nameLabel": "Nombre Completo",
+      "namePlaceholder": "Juan Pérez",
+      "emailLabel": "Correo Electrónico",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "phoneLabel": "Número de Teléfono (Opcional)",
+      "phonePlaceholder": "(123) 456-7890",
+      "messageLabel": "Tu Mensaje",
+      "messagePlaceholder": "Cuéntanos un poco sobre tu situación crediticia...",
+      "submitButton": "Solicitar Consulta",
+      "submittingButton": "Enviando..."
+    },
+    "toast": {
+      "successTitle": "¡Mensaje Enviado!",
+      "successDescription": "Gracias por contactarnos. Te responderemos en breve.",
+      "errorTitle": "Algo salió mal",
+      "errorDescription": "No se pudo enviar tu mensaje. Por favor, inténtalo de nuevo más tarde."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025. Todos los derechos reservados."
+  }
+}

@@ -2,20 +2,28 @@
 import Image from 'next/image';
 import { Card } from '@/components/ui/card';
 
-export function About() {
+interface AboutProps {
+  dictionary: {
+    title: string;
+    p1: string;
+    p2: string;
+  };
+}
+
+export function About({ dictionary }: AboutProps) {
   return (
     <section id="about" className="py-16 md:py-24 bg-card">
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <h2 className="text-3xl md:text-4xl font-bold font-headline mb-4 text-primary">
-              About Us
+              {dictionary.title}
             </h2>
             <p className="text-muted-foreground mb-4">
-              Our goal is simple: to be your trusted, expert partner on the path to financial freedom. We're committed to guiding individuals and businesses ethically and effectively, laying out a clear, proven way to significantly improve your financial health and credit score, helping you achieve prosperity and grow financially.
+              {dictionary.p1}
             </p>
             <p className="text-muted-foreground">
-              We're the true credit repair company that works, dedicated to helping you see results quickly. Our clients often experience significant progress in less than 60 days through our easy and secure process. Just like many others we've helped, you can achieve the financial future you deserve.
+              {dictionary.p2}
             </p>
           </div>
           <div className="order-1 md:order-2">
