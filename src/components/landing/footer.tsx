@@ -1,3 +1,4 @@
+
 'use client'
 
 import Link from 'next/link';
@@ -12,7 +13,7 @@ interface FooterProps {
 const socialLinks = [
   { href: 'https://www.facebook.com/ascendantwayconsulting', icon: <Facebook className="h-6 w-6" />, label: 'Facebook' },
   { href: 'https://www.instagram.com/ascendantwayconsulting', icon: <Instagram className="h-6 w-6" />, label: 'Instagram' },
-  { href: '#', icon: <Twitter className="h-6 w-6" />, label: 'Twitter' },
+  { href: 'https://x.com/ascendantwayllc', icon: <Twitter className="h-6 w-6" />, label: 'Twitter' },
   { href: '#', icon: <Youtube className="h-6 w-6" />, label: 'YouTube' },
   { href: '#', icon: <Linkedin className="h-6 w-6" />, label: 'LinkedIn' },
 ];
