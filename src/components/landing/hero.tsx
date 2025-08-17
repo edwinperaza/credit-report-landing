@@ -14,11 +14,11 @@ interface HeroProps {
 
 export function Hero({ heroImage, dictionary }: HeroProps) {
   return (
-    <section id="home" className="relative w-full py-20 md:py-24 bg-card overflow-hidden">
+    <section id="home" className="relative w-full pt-20 pb-12 md:pt-24 md:pb-20 bg-card overflow-hidden">
        <div className="absolute inset-0 z-0">
         <Image 
           src={heroImage}
-          alt="A modern cityscape with a bright sun flare."
+          alt="Modern cityscape background representing financial prosperity"
           fill
           objectFit="cover"
           className="opacity-20"
@@ -38,7 +38,7 @@ export function Hero({ heroImage, dictionary }: HeroProps) {
           <Link href="#contact">{dictionary.cta}</Link>
         </Button>
       </div>
-      <div className="absolute bottom-0 left-0 w-full h-[100px] z-10">
+      <div className="absolute bottom-0 left-0 w-full h-[100px] z-10 -mb-1">
         <svg
           className="w-full h-full"
           preserveAspectRatio="none"
@@ -47,7 +47,7 @@ export function Hero({ heroImage, dictionary }: HeroProps) {
         >
           <path
             d="M0,100 C480,0 960,0 1440,100 L1440,100 L0,100 Z"
-            className="fill-card"
+            className="fill-background"
           ></path>
         </svg>
       </div>

@@ -30,7 +30,7 @@ export function About({ dictionary }: AboutProps) {
             <Card className="overflow-hidden rounded-xl shadow-lg">
               <Image
                 src="https://firebasestorage.googleapis.com/v0/b/creditrise-landing-page.firebasestorage.app/o/smiling-business-team-using-laptop.jpg?alt=media&token=b0fadb63-bab8-472f-bd99-ae152ffe8910"
-                alt="Smiling business team working on a laptop"
+                alt="Smiling business team reviewing financial data on a laptop at Ascendant Way Consulting"
                 width={600}
                 height={400}
                 className="w-full h-auto object-cover"
