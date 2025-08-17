@@ -1,9 +1,8 @@
-
 'use client';
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Menu, X, TrendingUp, Globe } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import {
@@ -14,6 +13,7 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { usePathname } from 'next/navigation';
 import { i18n, Locale } from '@/i18n-config';
+import Image from 'next/image';
 
 interface HeaderProps {
   lang: Locale;
@@ -46,8 +46,7 @@ export function Header({ lang, dictionary }: HeaderProps) {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-4 flex h-16 max-w-screen-2xl items-center justify-between">
         <Link href={`/${lang}`} className="flex items-center gap-2">
-          <TrendingUp className="h-6 w-6 text-primary" />
-          <span className="font-bold text-lg font-headline">CreditRise</span>
+          <Image src="/logo.png" alt="Ascendant Way Consulting Logo" width={200} height={40} />
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm">
           {navLinks.map((link) => (
@@ -76,8 +75,7 @@ export function Header({ lang, dictionary }: HeaderProps) {
             <SheetContent side="right">
               <div className="flex flex-col gap-6 p-6">
                 <Link href={`/${lang}`} className="flex items-center gap-2 mb-4" onClick={() => setIsOpen(false)}>
-                  <TrendingUp className="h-6 w-6 text-primary" />
-                  <span className="font-bold text-lg font-headline">CreditRise</span>
+                  <Image src="/logo.png" alt="Ascendant Way Consulting Logo" width={180} height={36} />
                 </Link>
                 {navLinks.map((link) => (
                   <Link
