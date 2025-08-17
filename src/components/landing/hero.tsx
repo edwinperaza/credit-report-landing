@@ -27,7 +27,7 @@ export function Hero({ heroImage, dictionary }: HeroProps) {
         />
         <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-background/50 to-background"></div>
       </div>
-      <div className="container mx-auto px-4 text-center relative z-10">
+      <div className="container mx-auto px-4 text-center relative z-20">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-headline tracking-tight text-primary mb-4">
             {dictionary.title}
         </h1>
