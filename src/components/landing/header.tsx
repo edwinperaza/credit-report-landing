@@ -46,7 +46,7 @@ export function Header({ lang, dictionary }: HeaderProps) {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-4 flex h-16 max-w-screen-2xl items-center justify-between">
         <Link href={`/${lang}`} className="flex items-center gap-2">
-          <Image src="/logo.png" alt="Ascendant Way Consulting Logo" width={200} height={40} />
+          <Image src="https://firebasestorage.googleapis.com/v0/b/creditrise-landing-page.firebasestorage.app/o/awc_no_bg_horizontal.png?alt=media&token=fdc8652e-649b-4d74-b3e7-b978abb76f72" alt="Ascendant Way Consulting Logo" width={200} height={40} className="h-auto" />
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm">
           {navLinks.map((link) => (
@@ -75,7 +75,7 @@ export function Header({ lang, dictionary }: HeaderProps) {
             <SheetContent side="right">
               <div className="flex flex-col gap-6 p-6">
                 <Link href={`/${lang}`} className="flex items-center gap-2 mb-4" onClick={() => setIsOpen(false)}>
-                  <Image src="/logo.png" alt="Ascendant Way Consulting Logo" width={180} height={36} />
+                  <Image src="https://firebasestorage.googleapis.com/v0/b/creditrise-landing-page.firebasestorage.app/o/awc_no_bg_horizontal.png?alt=media&token=fdc8652e-649b-4d74-b3e7-b978abb76f72" alt="Ascendant Way Consulting Logo" width={180} height={36} className="h-auto"/>
                 </Link>
                 {navLinks.map((link) => (
                   <Link
