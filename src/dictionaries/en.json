@@ -9,7 +9,7 @@
   "hero": {
     "title": "Your Path to Prosperity",
     "subtitle": "Empowering individuals and entrepreneurs to enhance their financial standing and achieve a new level of success. Your journey to a brighter tomorrow starts here",
-    "cta": "Request a Free Consultation"
+    "cta": "Request a FREE Consultation"
   },
   "about": {
     "title": "About Us",
@@ -80,7 +80,7 @@
       "phonePlaceholder": "(123) 456-7890",
       "messageLabel": "Your Message",
       "messagePlaceholder": "Tell us a little about your credit situation...",
-      "submitButton": "Request Consultation",
+      "submitButton": "Request a FREE Consultation",
       "submittingButton": "Sending..."
     },
     "toast": {
