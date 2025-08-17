@@ -43,7 +43,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
-        <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/creditrise-landing-page.firebasestorage.app/o/favicon.ico?alt=media&token=18881810-5705-44db-a2f5-d537cf1ec84b" sizes="any" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className="font-body antialiased">
         {children}
