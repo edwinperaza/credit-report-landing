@@ -4,8 +4,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'CreditRise',
-  description: 'Repair Your Credit, Rise to Your Future',
+  title: 'Ascendant Way Consulting - Reparamos tu crédito',
+  description: 'Empoderamos a individuos y emprendedores a mejorar su situación financiera.',
 };
 
 export default function RootLayout({
